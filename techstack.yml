@@ -1,0 +1,32 @@
+repo_name: Spaun12/introduction-to-github
+report_id: 4bcb3e44cb619fc04d17f1421cf06100
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-03T19:21:28+00:00'
+requested_by: invalid-email-address
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Spaun12/introduction-to-github
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Spaun12/introduction-to-github/blob/main/.github/workflows/0-start.yml
+  detection_source: ".github/workflows/0-start.yml"
+  last_updated_by: Michael D. Connell Jr
+  last_updated_on: 2023-01-02 13:05:04.000000000 Z
